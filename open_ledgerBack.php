@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Content-Type, application/json");
 header("Access-Control-Allow-Credentials: true");
 
 
-$conn = new mysqli("sql8.freemysqlhosting.net:3306", "sql8713806", "ItSlB4WnqU", "sql8713806");
+$conn = new mysqli("sql.freedb.tech", "freedb_ledger_user", "6n&tyApRQ2Km6JC", "freedb_open_ledger");
 
 // Check database connection 
 if($conn -> connect_errno) {
